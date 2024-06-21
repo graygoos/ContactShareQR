@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		056BDF262C24336E00EE6FAE /* ContactShareQRApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056BDF252C24336E00EE6FAE /* ContactShareQRApp.swift */; };
+		056BDF282C24336E00EE6FAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056BDF272C24336E00EE6FAE /* ContentView.swift */; };
+		056BDF2A2C24337000EE6FAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 056BDF292C24337000EE6FAE /* Assets.xcassets */; };
+		056BDF2D2C24337000EE6FAE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 056BDF2C2C24337000EE6FAE /* Preview Assets.xcassets */; };
+		056BDF342C24337F00EE6FAE /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056BDF332C24337F00EE6FAE /* Contact.swift */; };
+		056BDF362C2433E300EE6FAE /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056BDF352C2433E300EE6FAE /* HomeScreen.swift */; };
+		056BDF382C24340C00EE6FAE /* ContactRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056BDF372C24340C00EE6FAE /* ContactRowView.swift */; };
+		056BDF3A2C24343F00EE6FAE /* ContactDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056BDF392C24343F00EE6FAE /* ContactDetailView.swift */; };
+		056BDF3C2C24346A00EE6FAE /* AddContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056BDF3B2C24346A00EE6FAE /* AddContactView.swift */; };
+		056BDF3E2C24349300EE6FAE /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056BDF3D2C24349300EE6FAE /* ProfileScreen.swift */; };
+		056BDF402C2434B000EE6FAE /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056BDF3F2C2434B000EE6FAE /* UserProfile.swift */; };
+		056BDF422C2434E200EE6FAE /* QRCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056BDF412C2434E200EE6FAE /* QRCodeView.swift */; };
+		056BDF442C24351100EE6FAE /* ContactStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056BDF432C24351100EE6FAE /* ContactStore.swift */; };
+		056BDF462C243EA100EE6FAE /* ScanQRCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056BDF452C243EA100EE6FAE /* ScanQRCodeView.swift */; };
+		056BDF492C24471F00EE6FAE /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 056BDF482C24471F00EE6FAE /* CodeScanner */; };
+		056BDF4B2C24782B00EE6FAE /* UserProfileSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056BDF4A2C24782B00EE6FAE /* UserProfileSetupView.swift */; };
+		056BDF4D2C24789400EE6FAE /* ContactSharingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056BDF4C2C24789400EE6FAE /* ContactSharingView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		056BDF222C24336E00EE6FAE /* ContactShareQR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactShareQR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		056BDF252C24336E00EE6FAE /* ContactShareQRApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactShareQRApp.swift; sourceTree = "<group>"; };
+		056BDF272C24336E00EE6FAE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		056BDF292C24337000EE6FAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		056BDF2C2C24337000EE6FAE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		056BDF332C24337F00EE6FAE /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		056BDF352C2433E300EE6FAE /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		056BDF372C24340C00EE6FAE /* ContactRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactRowView.swift; sourceTree = "<group>"; };
+		056BDF392C24343F00EE6FAE /* ContactDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailView.swift; sourceTree = "<group>"; };
+		056BDF3B2C24346A00EE6FAE /* AddContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactView.swift; sourceTree = "<group>"; };
+		056BDF3D2C24349300EE6FAE /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
+		056BDF3F2C2434B000EE6FAE /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		056BDF412C2434E200EE6FAE /* QRCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeView.swift; sourceTree = "<group>"; };
+		056BDF432C24351100EE6FAE /* ContactStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactStore.swift; sourceTree = "<group>"; };
+		056BDF452C243EA100EE6FAE /* ScanQRCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanQRCodeView.swift; sourceTree = "<group>"; };
+		056BDF4A2C24782B00EE6FAE /* UserProfileSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileSetupView.swift; sourceTree = "<group>"; };
+		056BDF4C2C24789400EE6FAE /* ContactSharingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactSharingView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		056BDF1F2C24336E00EE6FAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				056BDF492C24471F00EE6FAE /* CodeScanner in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		056BDF192C24336E00EE6FAE = {
+			isa = PBXGroup;
+			children = (
+				056BDF242C24336E00EE6FAE /* ContactShareQR */,
+				056BDF232C24336E00EE6FAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		056BDF232C24336E00EE6FAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				056BDF222C24336E00EE6FAE /* ContactShareQR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		056BDF242C24336E00EE6FAE /* ContactShareQR */ = {
+			isa = PBXGroup;
+			children = (
+				056BDF252C24336E00EE6FAE /* ContactShareQRApp.swift */,
+				056BDF272C24336E00EE6FAE /* ContentView.swift */,
+				056BDF332C24337F00EE6FAE /* Contact.swift */,
+				056BDF352C2433E300EE6FAE /* HomeScreen.swift */,
+				056BDF372C24340C00EE6FAE /* ContactRowView.swift */,
+				056BDF392C24343F00EE6FAE /* ContactDetailView.swift */,
+				056BDF3B2C24346A00EE6FAE /* AddContactView.swift */,
+				056BDF3D2C24349300EE6FAE /* ProfileScreen.swift */,
+				056BDF412C2434E200EE6FAE /* QRCodeView.swift */,
+				056BDF452C243EA100EE6FAE /* ScanQRCodeView.swift */,
+				056BDF432C24351100EE6FAE /* ContactStore.swift */,
+				056BDF3F2C2434B000EE6FAE /* UserProfile.swift */,
+				056BDF4A2C24782B00EE6FAE /* UserProfileSetupView.swift */,
+				056BDF4C2C24789400EE6FAE /* ContactSharingView.swift */,
+				056BDF292C24337000EE6FAE /* Assets.xcassets */,
+				056BDF2B2C24337000EE6FAE /* Preview Content */,
+			);
+			path = ContactShareQR;
+			sourceTree = "<group>";
+		};
+		056BDF2B2C24337000EE6FAE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				056BDF2C2C24337000EE6FAE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		056BDF212C24336E00EE6FAE /* ContactShareQR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 056BDF302C24337000EE6FAE /* Build configuration list for PBXNativeTarget "ContactShareQR" */;
+			buildPhases = (
+				056BDF1E2C24336E00EE6FAE /* Sources */,
+				056BDF1F2C24336E00EE6FAE /* Frameworks */,
+				056BDF202C24336E00EE6FAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ContactShareQR;
+			packageProductDependencies = (
+				056BDF482C24471F00EE6FAE /* CodeScanner */,
+			);
+			productName = ContactShareQR;
+			productReference = 056BDF222C24336E00EE6FAE /* ContactShareQR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		056BDF1A2C24336E00EE6FAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					056BDF212C24336E00EE6FAE = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 056BDF1D2C24336E00EE6FAE /* Build configuration list for PBXProject "ContactShareQR" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 056BDF192C24336E00EE6FAE;
+			packageReferences = (
+				056BDF472C24471F00EE6FAE /* XCRemoteSwiftPackageReference "CodeScanner" */,
+			);
+			productRefGroup = 056BDF232C24336E00EE6FAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				056BDF212C24336E00EE6FAE /* ContactShareQR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		056BDF202C24336E00EE6FAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				056BDF2D2C24337000EE6FAE /* Preview Assets.xcassets in Resources */,
+				056BDF2A2C24337000EE6FAE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		056BDF1E2C24336E00EE6FAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				056BDF3A2C24343F00EE6FAE /* ContactDetailView.swift in Sources */,
+				056BDF362C2433E300EE6FAE /* HomeScreen.swift in Sources */,
+				056BDF422C2434E200EE6FAE /* QRCodeView.swift in Sources */,
+				056BDF382C24340C00EE6FAE /* ContactRowView.swift in Sources */,
+				056BDF342C24337F00EE6FAE /* Contact.swift in Sources */,
+				056BDF462C243EA100EE6FAE /* ScanQRCodeView.swift in Sources */,
+				056BDF4D2C24789400EE6FAE /* ContactSharingView.swift in Sources */,
+				056BDF282C24336E00EE6FAE /* ContentView.swift in Sources */,
+				056BDF3C2C24346A00EE6FAE /* AddContactView.swift in Sources */,
+				056BDF262C24336E00EE6FAE /* ContactShareQRApp.swift in Sources */,
+				056BDF442C24351100EE6FAE /* ContactStore.swift in Sources */,
+				056BDF4B2C24782B00EE6FAE /* UserProfileSetupView.swift in Sources */,
+				056BDF3E2C24349300EE6FAE /* ProfileScreen.swift in Sources */,
+				056BDF402C2434B000EE6FAE /* UserProfile.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		056BDF2E2C24337000EE6FAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		056BDF2F2C24337000EE6FAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		056BDF312C24337000EE6FAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ContactShareQR/Preview Content\"";
+				DEVELOPMENT_TEAM = 8LYJPF7G96;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "ContactShareQR needs access to the camera to scan QR codes";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tinciti.ContactShareQR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		056BDF322C24337000EE6FAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ContactShareQR/Preview Content\"";
+				DEVELOPMENT_TEAM = 8LYJPF7G96;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "ContactShareQR needs access to the camera to scan QR codes";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tinciti.ContactShareQR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		056BDF1D2C24336E00EE6FAE /* Build configuration list for PBXProject "ContactShareQR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				056BDF2E2C24337000EE6FAE /* Debug */,
+				056BDF2F2C24337000EE6FAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		056BDF302C24337000EE6FAE /* Build configuration list for PBXNativeTarget "ContactShareQR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				056BDF312C24337000EE6FAE /* Debug */,
+				056BDF322C24337000EE6FAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		056BDF472C24471F00EE6FAE /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		056BDF482C24471F00EE6FAE /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 056BDF472C24471F00EE6FAE /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 056BDF1A2C24336E00EE6FAE /* Project object */;
+}
