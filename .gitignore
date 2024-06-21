@@ -71,4 +71,5 @@ Carthage/Pods/
 
 # Other common files
 *.xcscmblueprint
+*.xcuserstate
 
